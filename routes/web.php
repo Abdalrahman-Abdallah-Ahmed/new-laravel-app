@@ -8,6 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('/jobs', function () {
+    // Fetch all jobs from the database
     return view('jobs', ['jobs' => Job::all()]);
 });
 
