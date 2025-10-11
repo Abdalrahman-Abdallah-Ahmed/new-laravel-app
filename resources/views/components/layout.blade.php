@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="h-full">
     <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
     <!--  -->
     <!--
@@ -22,7 +22,7 @@
   ```
 -->
     <div class="min-h-full">
-        <nav class="bg-gray-800/50">
+        <nav class="bg-gray-800">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex items-center">
